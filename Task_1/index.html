@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To Do List</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content" id="myDIV">
+            <h2>TO-DO List</h2>
+            <input type="text" id="myInput" placeholder="Add your task">
+            <span onclick="newElement()" class="addButton">Add</span>
+        </div>
+
+        <ul id="myUL"></ul>
+
+        <span onclick="clearList()" class="addButton clearButton">Clear</span>
+    </div>
+
+	<script src="script.js"></script>
+</body>
+</html>
