@@ -1,0 +1,122 @@
+body{
+  background-image: linear-gradient(to right, #860ef7, #f30a0a);
+}
+
+nav {
+  
+  height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #f7310e, #f30acc);
+  color: #000;
+  margin-bottom: 20px;
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navitems:hover{
+  
+  cursor: pointer;
+  font-size:x-large;
+  color: rgb(217, 226, 235);
+  
+}
+
+.navitems h2 {
+  font-size: 30px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1.5em;
+}
+
+.navitems button {
+  width: 15%;
+  margin: 22px 32px 0px 0px;
+  height: 10vh;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background-color: #eff3e7;
+  font-family: serif;
+  font-size: x-large;
+  
+ 
+}
+
+.fetchbtn:hover {
+  background-color: rgb(238, 15, 34);
+  cursor: pointer;
+  font-size:x-large;
+  color: rgb(76, 148, 211);
+  transform: scale(1.2);
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px rgb(212, 0, 255),
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    /* text-shadow: [x-offset] [y-offset] [blur-radius] [color]; */
+
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(to bottom right, #1169b1, #e70707);
+}
+#main {
+  
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  
+}
+.name:hover {
+  cursor: pointer;
+  color: rgb(10, 0, 10);
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.Logo:Hover{
+  box-shadow: 10px 10px rgb(255, 0, 242);
+
+transform: scale(1.2);
+}
+
+.profile_cont {
+ 
+  border-radius: 50%;
+  background-image: radial-gradient(#b3e0ff, #5e0edf);
+  margin: 10px;
+  padding: 10px;
+  width: 35%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 10;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  
+  transform: scale(1.2);
+  opacity: 1;
+  cursor: pointer;
+  color: rgb(248, 12, 12);
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
